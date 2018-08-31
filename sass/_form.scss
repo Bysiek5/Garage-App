@@ -1,0 +1,21 @@
+.form {
+    background-color: $color-primary-light;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &_main {
+        background-color: $color-primary-light;
+        padding: 5rem;
+        margin-top: -10rem;
+    }
+    
+    &_label {
+        font-size: $form-font;
+    }
+    
+    &_input {
+        font-size: $form-font;
+    }
+}

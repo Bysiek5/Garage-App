@@ -1,0 +1,12 @@
+@mixin btnStyle {
+    text-decoration: none;
+    border: none;
+    background-color: $color-primary-dark;
+    padding: 1rem;
+    transition: all .2s;
+    font-size: $btn-font;
+    color: $color-btn-font;
+    &:hover {
+            transform: scale(1.1);
+        }
+}

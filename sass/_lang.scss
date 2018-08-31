@@ -1,0 +1,22 @@
+.flag {
+    
+    &_icon {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }   
+    
+    &_link {
+        
+    }
+        
+    &_img {
+        width: 35rem;
+        transition: all .2s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

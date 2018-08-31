@@ -1,0 +1,25 @@
+.nav { 
+    height: 5rem;
+    background-color: #fff;
+    font-family: Arial;
+    &_list {
+        display: flex;
+        justify-content: space-around;
+        &-item {
+            list-style: none;
+            font-size: 2.5rem;
+            margin-top: .5rem;
+            transition: all .2s;
+            &:hover {
+                transform: scale(1.1);
+                }
+            &-link {
+                text-decoration: none;
+                &:link,
+                &:visited {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
